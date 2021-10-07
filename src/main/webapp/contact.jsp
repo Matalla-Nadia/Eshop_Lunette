@@ -24,8 +24,8 @@
 		75004 Paris<br>
 </p>
 <p id="deux">
-	Métro ligne4 Saint- Michel<br>
-	Ouvert tous les jours de 10h à 19h, sauf dimanches et fêtes.<br>
+	Mï¿½tro ligne4 Saint- Michel<br>
+	Ouvert tous les jours de 10h ï¿½ 19h, sauf dimanches et fï¿½tes.<br>
 </p>
 <p id="trois">
 <b>tel:01.25.14.32.25<br>
@@ -33,34 +33,7 @@
 </p>
 
 </div>
-<div id="map"></div>
-		<div id="blocSoc">
-	          <a href="https://www.youtube.com/watch?v=GLyPmhp_a9c"><img src="img/youb.png" id="youtube"></a>
-	          <a href="https://fr-fr.facebook.com/labouticalunettes/"><img src="img/fbblan.png" id="fb"></a>
-	          <a href="https://www.instagram.com/?hl=fr"><img src="img/instab.png" id="insta"></a>
-	     </div>	
-	     	<script>
-	     		function initMap(){
-	     			var options = {
-	     				zoom:8,
-	     				center:{lat:48.8534,lng: 2.3488}
-	     			}
-	     			var map = new
-	     			google.maps.Map(document.getElementById('map'), options);
-	     			
-	     			var marker = new google.maps.Marker({
-	     				position:{lat:48.8534,lng:2.3488},
-	     				map:map
-	     			});
-	     		}
-	     		
 
-	     	</script>
-	     	
-	     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM3lbJ2y9pJXsU3M7fG2s48tj0_WjaV3E&callback=initMap&libraries=&v=weekly"
-      async >
-    </script>	
-	     	
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.932690564378!2d2.293200715555743!3d48.878559679289395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f935eecf10b%3A0xdfb59aafe73f450!2sMaison%20Pou!5e0!3m2!1sfr!2sfr!4v1630312754850!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	
 	
