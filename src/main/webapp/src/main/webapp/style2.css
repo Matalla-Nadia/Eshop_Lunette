@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body{
+	background-size:10%;
+	height:50%;
+	background: no-repeat url(img/lufonn.jpg);
+	background-size:cover;
+	background-position:center;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	color:white;
+	font-family:'Poppin', sans-serif; 
+	
+}
+
+h1{
+	font-size: 52px;
+	font-family: none;
+}
+
+p{
+	font-size:24px;
+	color:#D0DB97;
+}
+.bien{
+	color: white;
+    border: solid;
+    width: 8em;
+    padding: 1px 10px 1px 12px;
+}
+
+#bloc{
+	
+	
+    width: 41em;
+    text-align: center;
+    margin-left: 53em;
+    margin-top: 17em;
+}
+
