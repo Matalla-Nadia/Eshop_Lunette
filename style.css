@@ -1,0 +1,508 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background:#E4E5E4;
+	z-index:1;
+    background-size: cover;
+}
+
+
+#bloc1{
+	opacity:0,2;
+	width:27em;
+	float:left;
+	margin-left:10em;
+	background:rgb(0,0,0, 0.8);
+	margin-top:10em;
+	padding: 0 10px 16px 10px;
+	color:white;
+	
+}
+#mdp{
+	color: white;
+    font-size: 9px;
+    margin-left: 36em;
+    border-bottom: solid 1px;
+}
+#mdpp{
+	color: black;
+    font-size: 9px;
+    margin-left: 36em;
+    border-bottom: solid 1px;
+}
+
+#bloc2{
+
+	width:27em;
+	display:inline-block;
+	margin-left: 21em;
+	margin-top:3em;
+	background:whitesmoke;
+	padding:0 10px 0 10px;
+	color: black;
+	border:solid 3px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*Header1*/
+.bienvenue{
+	color:#D0DB97;
+	font-size: 2em;
+	border: solid;
+    width: 5em;
+    padding: 8px;
+}
+
+.accueil{
+	color:white;
+    margin:0 0 0 7em; 
+	font-size:x-large;
+}
+.accueilh{
+	color:white;
+    margin:0 0 0 3em; 
+	font-size:x-large;
+}
+.propos{
+	color:white;
+	font-size:x-large;
+	margin-left:4em;
+}
+.contact{
+	color:white;
+	font-size:x-large;
+	margin-left: 3em;
+}
+.bouton1{
+	background:white;
+	width:80%;
+	margin-left:41px;
+	background-color:white;
+	color:black;
+}
+.bouton2{
+	background:white;
+	width:22em;
+	margin-left:41px;
+	width:81%;
+	background-color:black;
+}
+.nav{
+	background:black;
+	height:7em;
+ }
+.form-control{
+	background-color:white;
+}
+.form-label{
+	
+    font-size: x-large;
+}
+a{
+	text-decoration:none;
+	
+} 
+.panier{
+	color:white;
+	margin-left: 7em;
+	display:inline-block;
+}
+#imgpanier{
+	 height:2em;
+}	
+li a:hover{
+	background:#D1D09A;
+	color:#653C0E;
+	font-weight:800px;
+}
+#decovrai{
+	background:red;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Page panier*/
+#recap{
+	border: solid 6px;
+    border-color: white;
+	height:27em;
+ 	background:grey;
+	width: 30em;
+	margin: 3em 0 9em 34em;
+	padding: 34px 34px 34px 34px;
+	
+    
+}
+
+.payer1{
+	width: 5em;
+	margin-bottom: 4em;
+	
+}
+.total{
+	color: antiquewhite;
+    margin-left: 0em;
+    font-weight: 900;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*page Monture femme*/
+
+#nav{
+	height:79em;
+    background: rgb(0,0,0, 0.2);
+    float: left;
+    width: 13em;
+    margin-right: 8em;
+}
+#carte{
+	width: 61em;
+	background: white;
+    display: flex;
+    width: 64em;
+    height: 71em;
+    margin: 62px 0 46px 7em;
+    padding-top: 4em;
+    padding: 10px 0 0 0;
+  
+    color: grey;
+    flex-wrap: wrap;
+    padding-left: 44px;
+	
+}
+.card1{
+   
+    margin-right: 2em;
+   
+    color:black;
+    height: 17em;
+}
+.consul{
+	
+	margin-top: 2em;
+    width: 7em;
+    margin-left: 30%;
+    border: solid 3px;
+    border-color: lavenderblush;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/    
+ /*Page contact*/
+ .message{
+ 	 width: 25em;
+ }
+ .textarea{
+ 	width: 34em;
+    height: 10em;
+ }
+ .bouton3{
+ 	margin-top:-10%;
+    width: 10em;
+    margin-left: 30%;
+ }
+ #blocontact{
+ 	background:whitesmoke;
+ 	float: left;
+    margin-left: 8em;
+    margin-top: 6em;
+    padding: 0 10px 14px 10px;
+    height: 19em;
+    border:solid;
+  	
+ }
+ #para{
+ 	border:solid 6px;
+ 	border-color:white;
+ 	background:black;
+ 	width: 18em;
+ 	display: inline-block;
+ 	color:white;
+ 	margin-left: 10%;
+ 	font-size:large;
+ 	margin-top: 5em;
+ 	padding: 5px 0 0 15px
+ }
+ #youtube{
+ 	width: 4em;
+    border-radius: 50%;
+ }	
+ #fb{
+ 	border-radius: 50%;
+    width: 4em;
+    margin: 0 75px 0 75px
+ }
+ #insta{
+ 	width: 4em;
+ }
+ #blocSoc{
+ 	  margin-left: 39%;
+ 	  margin-top: 7em;
+ 	  background: black;
+      width: 24em;
+      padding: 1em 1em 1em 1em;
+    
+}
+#map{
+	height: 306px;
+    width: 20%;
+    border: solid 4px;
+    margin-left: 73em;
+    display: flex;
+    float: left;
+    margin-top: -43vh;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/ 
+ /* bouton deconnection*/
+ 
+ .deconection a{
+ 	text-decoration:none;
+ 	color:#D0DB97;
+ }
+ 
+ /*page cards img----------------------------------------------------------------------------------------------------------------*/
+ 
+ .img{
+ 
+ 	width:1em;
+ }
+ 
+ /*page detail---------------------------------------------------------------------------------------------------------------------*/
+ #imgdetail{
+ 	margin-right: 32em;
+ 	width: 103%;
+    height: 21em;
+    border: solid;
+    float: right;
+     margin-top: -32%;
+    
+ }
+ #imgdetailh{
+ 	margin-right: 32em;
+ 	width: 33em;
+    height: 21em;
+    border: solid;
+    float: right;
+     margin-top: -32%;
+    
+ }
+ #blocdetail{
+ 	
+   
+    width: 66em;
+    height: 31em;
+    margin: 4em 0 0 15em;
+}
+#descriptif{
+    background:lightgrey ;
+    float: right;
+    width: 33em;
+    height: 20em;
+    padding: 2em 4em 0 4em
+}
+ 
+ 
+ #blociconimg{
+ 	border:solid 2px;
+ 	margin-top: 2em;
+ 	height: 10em;
+ }
+ #ajouter{
+ 	margin-left: 12em;
+ 	background:#a6138678;
+ 	color:black;
+ }
+ #ajouterh{
+ 	margin-left: 12em;
+ 	background:#77aa51;
+ 	color:black;
+ }
+ 
+span{
+	color:#ffeb00;
+}
+ .de{
+ 	background:darkgrey;
+ }
+ 
+ .blocdes{
+ 	background:lightgrey;
+ 	margin-left: 33em;
+    width: 32em;
+    border: solid 2px;
+    float: right;
+    padding: 14px 0 28px 0;
+ }
+ .blocdetail{
+ 	
+ 	    height: 28em;
+ 	    padding: 10px 20px 0 7px;
+ 	   
+ 	    
+ }
+ #hello{
+ 	
+ 	background: #b00e7e;
+    width: 33em;
+    margin-top: -2em;
+    height: 3em;
+ }
+ #helloh{
+ 	
+ 	background:#77aa51;
+    width: 33em;
+    width: 33em;
+    margin-top: -2em;
+    height: 3em;
+ }
+ /*page message -------------------------------------------------------------------------------------------------------------------------*/
+ 
+ #mess{
+ 	background:white;
+ 	
+ }
+ /*page cb--------------------------------------------------------------------------------------------------------------------------------*/
+ #cb{
+ 	margin-top: 2%;
+ 	background:white;
+ 	width: 27em;
+ 	margin-left: 34em;
+ 	padding: 30px 30px 30px 30px;
+ }
+ .date{
+ 	color:blue;
+ 	width: 39%;
+ }
+ .numc{
+ 	width: 7em;	
+ 	}
+ 
+ .numcv{
+ 	width: 10em;	
+ 	}
+ #paie{
+ 	
+ 	margin-bottom:4%;
+ }
+ 
+ #input{
+ 	margin-top:6%
+ }
+ #masterimg{
+ 	    width: 15%;
+ }
+ .bout{
+ 	width: 5em;
+    margin-left: 35%;
+    margin-top: 2%;
+ }
+#interro{
+	
+    border-radius: 56%;
+    margin-left: 1%;
+    width:5%;
+    
+}
+ /*accueil2------------------------------------------------------------------------------------------------*/
+ #histoire{
+ 	display:inline-flex;
+ 	padding: 2em 2em 2em 2em;
+    display: inline-flex;
+    width: 80em;
+    height: 22em;
+    margin-left: 10em;
+}
+ 
+ #histoire2{
+ 	margin-top: -5%;
+ 	padding: 2em 2em 2em 2em;
+    display: inline-flex;
+    width: 81em;
+    height: 22em;
+    margin-left: 9em
+}
+ #ac{
+ 
+ 	width: 19em;
+    height: 92%;
+    padding: 1em;
+}
+
+ #ac2{
+ 	width: 19em;
+    height: 92%;
+    padding: 1em;
+}
+
+#p{
+	text-align: center;
+	background: white;
+    height: 10em;
+    border: solid 8px;
+    color:black;
+    padding: 2em 2em 2em 2em;
+    margin-top: 3em;
+}
+#p2{
+	text-align: center;
+	background: white;
+    height: 10em;
+    border: solid 8px;
+    color:black;
+    padding: 2em 2em 2em 2em;
+    margin-top: 3em;
+}
+ /*header 2------------------------------------------------------------------*/
+	
+.tit{
+	
+	color: white;
+    font-size: 3em;
+    border: solid 5px;
+    padding: 1;
+    width: 15%;
+    margin-left: 1%;
+    padding: 0 0 0 8px;
+}
+ 
+ 
+ #imgAdmin{
+	
+	border:solid 5px;
+	width: 10em;
+}
+#matable{
+	background:#d0b7b7;
+}
+
+#montd{
+	border:solid 5px;
+	border:bottom;
+}
+.sepImg{
+	margin-bottom:15px;
+}
+#sup{
+	border:solid 5px;
+	margin: 55px 0 0 4px;
+}
+#id{
+	font-size: -webkit-xxx-large;
+    text-align: center;
+}
+#cate{
+	text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+tbody th, table.dataTable tbody td {
+    padding: 24px 52px;
+    border: solid 1px;
+}
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    width: 74em; 
+    /* height: 37em; */
+    margin: 5em 19em 0em 10em;
+}
+ 
+   

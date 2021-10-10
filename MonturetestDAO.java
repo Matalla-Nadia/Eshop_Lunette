@@ -9,6 +9,7 @@ import bean.Categorie;
 import bean.Monturetest;
 
 
+
 public class MonturetestDAO {
 	
 	Connection connect = Connect.getConnection();
@@ -40,7 +41,7 @@ public class MonturetestDAO {
 	  public ArrayList<Monturetest> readByCategorie(String id) {
 			ArrayList<Monturetest> response = null;
 			try {
-				PreparedStatement request = connect.prepareStatement("SELECT id, nom, description, image, prix, quantite, categorie.id, categorie.nom FROM monturetest , categories "
+				PreparedStatement request = connect.prepareStatement("SELECT monturetest.id, monturetest.nom, monturetest.description, monturetest.image,monturetest.prix, monturetest.quantite, monturetest.categorie, categories.nom , categories.id FROM monturetest , categories "
 																	+ "where monturetest.categorie = categories.id and categories.id=" + id);
 				ResultSet rs = request.executeQuery();
 				response = new ArrayList<Monturetest>();
@@ -65,5 +66,27 @@ public class MonturetestDAO {
 			}
 			return response;
 		}
-		
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+	  public Monturetest read(int Int) {
+		  Monturetest rec = new Monturetest();
+			
+			try {
+				PreparedStatement request = connect.prepareStatement("SELECT * FROM Monturetest WHERE id = ? ;");
+				request.setInt(1, Int); 
+				System.out.println(request);
+				ResultSet rs = request.executeQuery();
+				while(rs.next()) {
+					rec.setId(rs.getInt(1));    
+					rec.setNom(rs.getString("nom"));
+					rec.setDescription(rs.getString("description"));
+					rec.setImage(rs.getString("Image"));
+					rec.setPrix(rs.getFloat("prix"));
+				
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			return rec;
+		};
 }
